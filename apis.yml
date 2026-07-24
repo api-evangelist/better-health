@@ -1,8 +1,17 @@
 aid: better-health
 name: Better Health
-description: 'Better Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Better Health (Better Health Supplies) is a modern, direct-to-consumer medical
+  supplier that ships home medical supplies for chronic conditions straight to
+  patients' doorsteps. The company covers diabetes and continuous glucose
+  monitors (CGMs), incontinence, urology and self-catheterization, ostomy, and
+  wound care categories, carrying leading brands and pairing product fulfillment
+  with insurance-benefit navigation and one-on-one peer and clinical support.
+  Better Health operates a Shopify-based storefront at joinbetter.com plus an
+  education-focused community blog, and is backed by General Catalyst. It is
+  cataloged in the API Evangelist network as a healthcare company profile; it
+  publishes a consumer commerce experience rather than a first-party developer
+  API, so this record captures its public web, security, and identity surface.
 url: https://raw.githubusercontent.com/api-evangelist/better-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +19,70 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://joinbetter.com/cdn/shop/files/better-health-bg_1200x1200.png?v=1747645316
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Medical Supplies
+- Diabetes
+- CGM
+- Ostomy
+- Urology
+- Incontinence
+- Wound Care
+- Direct to Consumer
+- E-Commerce
 apis: []
+common:
+- type: Website
+  url: https://joinbetter.com
+- type: Blog
+  url: https://blog.joinbetter.com
+- type: Support
+  url: https://joinbetter.com/pages/contact-us
+- type: HelpCenter
+  url: https://joinbetter.com/pages/faq
+- type: About
+  url: https://joinbetter.com/pages/about-us
+- type: GettingStarted
+  url: https://joinbetter.com/pages/how-it-works
+- type: Careers
+  url: https://joinbetter.com/pages/careers
+- type: SignUp
+  url: https://joinbetter.com/account/register
+- type: Login
+  url: https://joinbetter.com/account/login
+- type: PrivacyPolicy
+  url: https://joinbetter.com/pages/privacy-policy
+- type: TermsOfService
+  url: https://joinbetter.com/pages/terms-and-conditions
+- type: WellKnown
+  url: well-known/better-health-well-known.yml
+- type: LLMsTxt
+  url: llms/better-health-llms.txt
+- type: DomainSecurity
+  url: security/better-health-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

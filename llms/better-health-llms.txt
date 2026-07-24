@@ -1,0 +1,28 @@
+# Better Health
+
+> Better Health (Better Health Supplies) is a modern direct-to-consumer medical supplier shipping home medical supplies for chronic conditions — diabetes and CGMs, incontinence, urology and self-catheterization, ostomy, and wound care — directly to patients, paired with insurance-benefit navigation and peer/clinical support. Backed by General Catalyst. Storefront on Shopify at joinbetter.com. This company publishes a consumer commerce experience, not a first-party developer API.
+
+## Company
+- [Website](https://joinbetter.com)
+- [About](https://joinbetter.com/pages/about-us)
+- [How It Works](https://joinbetter.com/pages/how-it-works)
+- [FAQ](https://joinbetter.com/pages/faq)
+- [Contact / Support](https://joinbetter.com/pages/contact-us)
+- [Careers](https://joinbetter.com/pages/careers)
+- [Blog](https://blog.joinbetter.com)
+
+## Product Categories
+- Diabetes & CGMs
+- Incontinence
+- Urology & Self-Catheterization
+- Ostomy
+- Wound Care
+
+## Legal
+- [Privacy Policy](https://joinbetter.com/pages/privacy-policy)
+- [Terms and Conditions](https://joinbetter.com/pages/terms-and-conditions)
+
+## Machine-Readable Surface
+- [Well-Known Index](well-known/better-health-well-known.yml) — /.well-known/ documents present on the base host (Shopify Customer Account OIDC discovery)
+- [Domain Security](security/better-health-domain-security.yml) — probed TLS/HSTS/SPF/DMARC posture
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/better-health/refs/heads/main/apis.yml) — this catalog record

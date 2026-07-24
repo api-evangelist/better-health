@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://joinbetter.com/.well-known/
+host: https://joinbetter.com
+note: >-
+  joinbetter.com runs on Shopify. The openid-configuration and
+  oauth-authorization-server documents below are served by Shopify's Customer
+  Account API (customer login/OAuth for the storefront), not a Better Health
+  first-party developer API. They are genuinely present on the base host and
+  captured verbatim; scopes include a customer-account-mcp-api surface.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: better-health-openid-configuration.json
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: better-health-oauth-authorization-server.json
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
