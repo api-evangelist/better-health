@@ -31,7 +31,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: http://joinbetter.com/cdn/shop/files/better-health-bg_1200x1200.png?v=1747645316
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
