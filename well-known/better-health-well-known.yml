@@ -2,13 +2,13 @@ generated: '2026-07-18'
 method: searched
 source: https://joinbetter.com/.well-known/
 host: https://joinbetter.com
-note: >-
-  joinbetter.com runs on Shopify. The openid-configuration and
-  oauth-authorization-server documents below are served by Shopify's Customer
-  Account API (customer login/OAuth for the storefront), not a Better Health
-  first-party developer API. They are genuinely present on the base host and
-  captured verbatim; scopes include a customer-account-mcp-api surface.
-documents:
+note: joinbetter.com runs on Shopify. The openid-configuration and oauth-authorization-server documents
+  below are served by Shopify's Customer Account API (customer login/OAuth for the storefront), not a
+  Better Health first-party developer API. They are genuinely present on the base host and captured verbatim;
+  scopes include a customer-account-mcp-api surface.
+hosts:
+- host: https://joinbetter.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -21,3 +21,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
